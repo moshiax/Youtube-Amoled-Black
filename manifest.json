@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "version": "1.4.8.8",
   "name": "Youtube Amoled Black",
-  "description": "123.",
+  "description": "Makes youtube black.",
   "content_scripts": [
     {
       "matches": [
