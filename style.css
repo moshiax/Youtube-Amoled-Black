@@ -140,15 +140,36 @@ div#description.item.style-scope.ytd-watch-metadata {
 
 }
 
-/*
+.YtSearchboxComponentInputBox.YtSearchboxComponentInputBoxDark {
+    background-color: black !important;
+}
+
+
 .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
     background: black !important;
 }
 
 .yt-chip-cloud-chip-renderer {
-    background: #000000 !important; /* Черный фон */
+    background: #000000 !important; /* search panel */
 }
 
+
+.YtSearchboxComponentSuggestionsContainer {
+    background-color: black !important; /* search results list */
+}
+
+.YtSuggestionComponentRemoveLink {
+    color: hsla(0, 100%, 69%, 1) !important; /* search result deletion text-button */
+}
+
+
+.YtSearchboxComponentSearchButtonDark {
+    background-color: black !important;  /* search icon background */
+}
+
+#teaser-carousel {
+    display: none !important;
+}
 
 
 div#description.item.style-scope.ytd-watch-metadata {
@@ -158,6 +179,5 @@ div#description.item.style-scope.ytd-watch-metadata {
 yt-chip-cloud-chip-renderer[chip-style] {
     background-color: black !important;
 }
-*/
 
 
