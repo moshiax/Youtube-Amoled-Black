@@ -153,24 +153,13 @@ div#description.item.style-scope.ytd-watch-metadata {
     background: #000000 !important; /* search panel */
 }
 
-
-.YtSearchboxComponentSuggestionsContainer {
-    background-color: black !important; /* search results list */
-}
-
 .YtSuggestionComponentRemoveLink {
     color: hsla(0, 100%, 69%, 1) !important; /* search result deletion text-button */
-}
-
-
-.YtSearchboxComponentSearchButtonDark {
-    background-color: black !important;  /* search icon background */
 }
 
 #teaser-carousel {
     display: none !important;
 }
-
 
 div#description.item.style-scope.ytd-watch-metadata {
     background-color: black !important;
@@ -180,4 +169,11 @@ yt-chip-cloud-chip-renderer[chip-style] {
     background-color: black !important;
 }
 
+.ytSearchboxComponentSearchButtonDark,
+.ytSearchboxComponentInputBox {
+    background-color: transparent !important; /* search container */
+}
 
+.ytSearchboxComponentSuggestionsContainer.ytSearchboxComponentSuggestionsContainerDark {
+    background-color: black !important;  /* search results list */
+}
