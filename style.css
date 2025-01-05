@@ -63,6 +63,9 @@ html[dark], [dark] {
     --yt-spec-text-primary-inverse 
 }
 
+
+/*=====================================Youtube category buttons===============================*/
+
 yt-chip-cloud-chip-renderer[chip-style=STYLE_DEFAULT][selected],
 yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER][selected] {
     background-color: rgba(145, 145, 145, 0.1) !important;
@@ -80,7 +83,11 @@ yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER][selected]:nth-of-type(
     border: 2px solid rgba(255, 99, 71, 0.3) !important; 
 }
 
+#text.yt-chip-cloud-chip-renderer {
+    color: white !important;
+}
 
+/*==============================================================================================*/
 div#container.style-scope.ytd-searchbox {
     background-color: black !important;
 }
