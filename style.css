@@ -49,6 +49,8 @@ div#background.style-scope.ytd-masthead,
 div#skip-navigation.style-scope.ytd-masthead,
 div#contentContainer.style-scope.tp-yt-app-drawer,
 div#guide-content.style-scope.ytd-app,
+yt-contextual-sheet-layout.yt-contextual-sheet-layout-wiz,
+ytd-miniplayer-info-bar,
 ytd-mini-guide-renderer.style-scope.ytd-app {
     background: black !important;
 }
